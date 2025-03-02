@@ -1,0 +1,57 @@
+.mapContainer {
+    margin-top: 6rem;
+    display: flex;
+}
+iframe {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 500px;
+    width: 850px;
+}
+
+.mapDescription {
+    font-size: 1.2rem;
+    color: rgba(57, 57, 57, 0.389);
+}
+.mapUrl {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding-top: 20px;
+    color: #323232;
+}
+.mapLeft {
+    padding: 2rem 0;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.mapUrl:hover {
+    color: #2887ff;
+}
+.url {
+    padding: 2rem 3rem;
+}
+@media (max-width: 850px) {
+    .mapContainer {
+        flex-direction: column-reverse;
+    }
+    iframe {
+        width: 100%;
+        border-radius: 0%;
+        height: 400px;
+    }
+    .mapLeft {
+        background-color: #e1e2e27d;
+    }
+    .mapUrl {
+        font-size: 18px;
+        text-align: center;
+    }
+    .mapDescription {
+        text-align: center;
+        font-size: 16px;
+    }
+}

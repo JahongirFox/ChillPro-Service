@@ -1,0 +1,44 @@
+.aboutTop {
+    text-align: center;
+    margin-top: 3rem;
+}
+.aboutContainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+h4 {
+    color: #2887ff;
+}
+.gridDescription {
+    color: #323232;
+}
+.aboutHr {
+    height: 1px;
+    background-color:  rgba(180, 180, 180, 0.504);
+    width: 100%;
+}
+.item {
+    padding: 2rem 0;
+}
+@media (max-width: 850px) {
+    .aboutContainer {
+        text-align: center;
+        
+    }
+    .aboutTop {
+        font-size: 12px;
+    }
+    .aboutHr {
+        margin: 20px 0;
+        border: none;
+        width: 55%;
+        margin: auto;
+    }
+    .gridDescription {
+        margin: auto;
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,104 @@
+.sectionContainer {
+  justify-content: center;
+  display: flex;
+  margin-top: 80px;
+  text-align: center;
+}
+
+#containerTop {
+  display: flex;
+  gap: 1rem;
+}
+.containerBottom {
+    display: flex;
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+.topImage {
+  height: 30vh;
+}
+.topImagee {
+  height: 30vh;
+}
+.topText {
+  margin-top: 40px;
+}
+.bbb {
+  margin-top: 20px;
+}
+.ht {
+  color: #323232;
+  text-align: center;
+  font-weight: 500;
+}
+.left,
+.right {
+  display: flex;
+  border: 1px solid rgba(180, 180, 180, 0.504);
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  flex-direction: column;
+}
+.textTop {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.topButton {
+  margin-top: 1rem;
+}
+.textBottom {
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0 30px;
+}
+.btn {
+  background-color: #2887ff;
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+  padding: 17px 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+.topText {
+  justify-content: center;
+  margin: auto;
+  max-width: 50%;
+}
+.ttt {
+  color: #323232;
+  font-size: 25px;
+  font-weight: 500;
+}
+.ppp {
+  font-size: 13px;
+  color: rgba(47, 46, 46, 0.678);
+}
+@media (max-width: 650px) {
+  .topText {
+    padding: 0 1rem;
+  }
+  .ttt {
+    font-size: 19px;
+  }
+}
+@media (max-width: 568px) {
+  .left,
+  .right {
+    padding: 1rem 1rem;
+  }
+}
+@media (max-width: 750px) {
+    #containerTop {
+        flex-direction: column;
+    }
+    .containerBottom {
+        flex-direction: column;
+    }
+}

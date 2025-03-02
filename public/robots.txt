@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chillpro.uz/sitemap.xml

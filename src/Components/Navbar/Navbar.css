@@ -1,0 +1,157 @@
+svg {
+  width: 20px;
+}
+hr {
+  border: none;
+  height: 30px;
+  width: 1px;
+  background-color: #2887ff;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9vh;
+  padding: 0 1rem;
+}
+.navLogo {
+  font-size: 1.9rem;
+  cursor: default;
+  color: #323232;
+  font-weight: 500;
+}
+nav,
+.navLinks ul {
+  display: flex;
+}
+
+.navContact {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.socialIcon {
+  width: 25px;
+  cursor: pointer;
+}
+.navButton {
+  background-color: transparent;
+  border: 1px solid #2887ff;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: #2887ff;
+  transition: 0.4s ease;
+}
+.navButton:hover {
+  background-color: #2887ff;
+  color: #fff;
+}
+.navImage {
+  width: 20px;
+}
+.navImageTop {
+  width: 25px;
+}
+.navButtonBottom {
+  background-color: #2887ff;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+}
+.navLeft {
+  display: flex;
+  gap: 10px;
+}
+.navHr {
+  display: none;
+}
+.navLinks.open {
+  display: block;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger span {
+  width: 27px;
+  height: 2px;
+  background: #333;
+  margin: 3px 0;
+}
+.navbarHr {
+  display: none;
+}
+
+@media (max-width: 768px) {
+    .navLinks {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background: #fff;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      flex-direction: column;
+      transition: 0.5s ease-in;
+      z-index: 1;
+      padding: 3rem 0;
+    }
+    .navbarHr {
+      display: flex;
+      width: 50%;
+      height: 1px;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin: 5px 0px;
+      border: none;
+    }
+    .navLinks.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+
+    .navButtonBottom {
+      display: none;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  
+    .navContact {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navButton {
+      padding: 0.7rem 1rem;
+    }
+    .navRight {
+      align-items: center;
+    }
+
+    .socialIcon {
+      width: 30px;
+    }
+  }
+  @media (max-width: 500px) {
+    .navImage {
+      font-size: 1.5rem;
+    }
+  }
+
+  
+
